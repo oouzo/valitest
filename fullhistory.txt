@@ -1,0 +1,850 @@
+    1  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\n
+    2  source $HOME/.cargo/env
+    3  cargo install mdbook --vers0.3
+    4  cargo install mdbook --vers 0.3
+    5  cd Documents/sources/book
+    6  cargo install mdbook --vers 0.3.0
+    7  mdbook
+    8  mdbook build
+    9  sudo spctl --master-disable
+   10  sudo spctl --master-enable
+   11  cd Documents/docker/doodle/cheers2019
+   12  docker build -t oouzo/cheers2019
+   13  docker build -t oouzo/cheers2019 .
+   14  docker run -it --rm oouzo/cheers2019
+   15  docker run -it --rm oouzo/cheers2019
+   16  docker login && docker push oouzo/cheers2019
+   17  docker exec -it b319e713077306be1f7ade231f753c907edb3b618a5873099306ee2121633884 /bin/sh; exit
+   18  history
+   19  docker run -it --rm oouzo/cheers2019
+   20  docker run -dp 80:80 docker/getting-started
+   21  history
+   22  sudo spctl --master-disable
+   23  sudo spctl --master-enale
+   24  sudo spctl --master-enable
+   25  docker run -it --rm oouzo/cheers2019
+   26  adb
+   27  /Applications/Python\ 3.8/Update\ Shell\ Profile.command ; exit;
+   28  adb
+   29  cd Downloads/platform-tools
+   30  ll
+   31  ls
+   32  ./adb
+   33  ./adb devices -l
+   34  ./adb start-server
+   35  ps aux ww
+   36  ps aux 
+   37  ps aux |grep adb
+   38  adb
+   39  ./adb
+   40  ./adb devices -l
+   41  ./adb kill-server
+   42  ps aux |grep adb
+   43  pwd
+   44  cd ../../NetBeansProjects/helloworld
+   45  ll
+   46  git remote add origin remote repository https://github.com/oouzo
+   47  git remote add origin https://github.com/oouzo
+   48  git remote -v
+   49  git remote add origin https://github.com/oouzo/helloworld
+   50  git remote add origin -fprce https://github.com/oouzo/helloworld
+   51  git remote add origin -force https://github.com/oouzo/helloworld
+   52  git remote -v
+   53  git push -f origin master
+   54  git remote set-url https://github.com/oouzo/helloworld
+   55  git remote set-url origin https://github.com/oouzo/helloworld
+   56  git remote -v
+   57  git push -f origin master
+   58  git push -f origin master
+   59  git push -f origin master
+   60  git log
+   61  ll
+   62  ls
+   63  ls -la
+   64  curl -vvI https://maven.pkg.github.com/oouzo/helloworld/it/oouzo/tests/helloworld/1.0/helloworld-1.0.war
+   65  ls -la
+   66  cd ..
+   67  git clone https://github.com/docker/labs\n
+   68  git clone https://github.com/docker/labs\n
+   69  cd labs/developer-tools/java-debugging/app/
+   70  ll
+   71  ls
+   72  cd ..
+   73  ls
+   74  docker-compose --?
+   75  docker-compose --help
+   76  docker-compose ps
+   77  docker-compose config
+   78  docker-compose --verbose up
+   79  docker-compose --verbose stop
+   80  docker-compose --verbose ps
+   81  docker-compose --verbose ps
+   82  netstat -punta
+   83  netstat -p
+   84  netstat -a
+   85  ps aux 
+   86  netstat -p |grep 8080
+   87  netstat -a |grep 8080
+   88  python-v
+   89  python -v
+   90  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   91  vi /Users/daniele/.profile
+   92  brew install python
+   93  python
+   94  python3
+   95  brewinstall gmp
+   96  brew install gmp
+   97  brew install mpfr
+   98  brew install mpc
+   99  brew install mpc-dev
+  100  brew install gmp2
+  101  brew install libmpc
+  102  brew unistall crypto
+  103  brew remove crypto
+  104  brew remove pycrypto
+  105  brew remove Crypto
+  106  pip3 uninstall crypto
+  107  pip3 uninstall pycrypto
+  108  pip3 install pycrypto
+  109  brew install pycrypto
+  110  brew install crypto
+  111  sudo pip3 install pycrypto
+  112  sudo pip3 freze
+  113  sudo pip3 freeze
+  114  whereis pip3
+  115  ls -la /usr/bin/pip3
+  116  easy_install Crypto
+  117  sudo easy_install Crypto
+  118  easy_install -?
+  119  easy_install --?
+  120  easy_install --help
+  121  whereis easy_install
+  122  ll -lat easy_install
+  123  ls -lat easy_install
+  124  ls -la /usr/bin easy_install
+  125  ls -la /usr/bin/easy_install
+  126  ls -la /usr/bin/python3
+  127  python -version
+  128  ls -la /System/Library/Frameworks/Python.framework/Versions/Current
+  129  brew install pyenv
+  130  pyenv
+  131  pyenv install 3.7.3
+  132  pyenv global 3.7.3
+  133  echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc\n
+  134  exec $0 
+  135  which python
+  136  docker-compose ps
+  137  docker-compose --help
+  138  docker-compose port
+  139  docker-compose port 8080
+  140  docker-compose ps
+  141  docker-compose restart
+  142  docker-compose logs
+  143  docker-compose --help
+  144  docker --help
+  145  docekr ps
+  146  docker ps
+  147  docker login 8555d73e282f
+  148  docker exec 
+  149  docker exec 8555d73e282f ls /opt
+  150  docker exec 8555d73e282f ls /
+  151  docker exec 8555d73e282f ls /usr/local/tomcat
+  152  docker exec 8555d73e282f ls /usr/local/tomcat/logs
+  153  docker exec 8555d73e282f ls -lat /usr/local/tomcat/logs
+  154  docker exec 8555d73e282f ls -lat /usr/local/tomcat/logs/catalina.2020-02-20.log
+  155  docker exec 8555d73e282f less /usr/local/tomcat/logs/catalina.2020-02-20.log
+  156  docker exec 8555d73e282f cat /usr/local/tomcat/logs/catalina.2020-02-20.log |more
+  157  docker exec 8555d73e282f ls -lat /usr/local/tomcat/logs
+  158  docker exec 8555d73e282f cat /usr/local/tomcat/logs/localhost.2020-02-20.log |more
+  159  docker-compose restart
+  160  docker exec 8555d73e282f cat /usr/local/tomcat/logs/localhost.2020-02-20.log |more
+  161  docker-compose restart
+  162  docker exec 8555d73e282f cat /usr/local/tomcat/logs/localhost.2020-02-20.log |more
+  163  cd ../../../../Documents/apache-tomee-plume-8.0.1/bin
+  164  ./startup.sh
+  165  cd ..
+  166  cd logs
+  167  ll -lat+
+  168  ll -lat
+  169  ls -lat
+  170  less catalina.
+  171  less catalina.out
+  172  less catalina.out
+  173  ps aux
+  174  ps aux |grep tom
+  175  kill -15 16902
+  176  ps aux |grep tom
+  177  cd /Users/daniele/NetBeansProjects/labs/developer-tools/java-debugging/app
+  178  ls -la
+  179  pwd
+  180  cd ..
+  181  ls -la
+  182  docker-compose ps
+  183  docker-compose --help
+  184  docker-compose stop
+  185  docker-compose ps
+  186  docker-compose up --build
+  187  which python
+  188  python -V
+  189  sudo easy_install Crypto
+  190  sudo easy_install Crypto
+  191  pip install pycrypto
+  192  pip -V
+  193  pip install --upgrade pip
+  194  sudo easy_install Crypto
+  195  pip -V
+  196  pip install pycrypto
+  197  pip install crypto
+  198  pip install cryptodome
+  199  pip install pycryptodome
+  200  tree
+  201  ll 
+  202  ls
+  203  pwd
+  204  cd Documents/POC_ECC_BUG
+  205  pwd
+  206  openssl
+  207  s
+  208  ls
+  209  openssl x509 -pubkey -noout -in USERTrustECCCertificationAuthority.crt > pub.pem
+  210  ls
+  211  openssl ecparam -name secp384r1 -genkey -noout -out p384-key.pem -param_enc explicit
+  212  openssl req -key p384-key-rogue.pem -new -out ca-rogue.pem -x509 -set_serial 0x5c8b99c55a94c5d27156decd8980cc26\n
+  213  openssl req -key p384-key-rogue.pem -new -out ca-rogue.pem -x509 -set_serial 0x5c8b99c55a94c5d27156decd8980cc26\n
+  214  openssl req -key p384-key-rogue.pem -new -out ca-rogue.pem -x509 -set_serial 0x5c8b99c55a94c5d27156decd8980cc26\n
+  215  openssl ecparam -name prime256v1 -genkey -noout -out prime256v1-privkey.pem\n
+  216  openssl req -key prime256v1-privkey.pem -config openssl.cnf -new -out prime256v1.csr\n
+  217  openssl req -key prime256v1-privkey.pem -new -out prime256v1.csr\n
+  218  openssl req -key prime256v1-privkey.pem -config openssl.cnf -new -out prime256v1.csr\n
+  219  openssl req -key prime256v1-privkey.pem -config ./openssl.cnf -new -out prime256v1.csr\n
+  220  ls
+  221  ls -la
+  222  rm openssl.cnf.rtf
+  223  cat openssl.cnf.rtf
+  224  cat openssl.cnf
+  225  rm openssl.cnf.rtf
+  226  openssl req -key prime256v1-privkey.pem -config ./openssl.cnf -new -out prime256v1.csr\n
+  227  openssl x509 -req -in prime256v1.csr -CA ca-rogue.pem -CAkey p384-key-rogue.pem -CAcreateserial -out client-cert.pem -days 500 -extensions v3_req -extfile openssl.cnf
+  228  ls -la
+  229  openssl x509 -req -in prime256v1.csr -CA ca-rogue.pem -CAkey p384-key-rogue.pem -CAcreateserial -out client-cert.pem -days 500 -extensions v3_req -extfile openssl.cnf
+  230  cat p384-key-rogue.pem
+  231  history
+  232  openssl ecparam -name prime256v1 -genkey -noout -out prime256v1-privkey.pem\n
+  233  openssl ecparam -name secp384r1 -genkey -noout -out p384-key.pem -param_enc explicit
+  234  openssl req -key p384-key-rogue.pem -new -out ca-rogue.pem -x509 -set_serial 0x5c8b99c55a94c5d27156decd8980cc26
+  235  openssl ecparam -name prime256v1 -genkey -noout -out prime256v1-privkey.pem
+  236  openssl req -key prime256v1-privkey.pem -config openssl.cnf -new -out prime256v1.csr
+  237  openssl x509 -req -in prime256v1.csr -CA ca-rogue.pem -CAkey p384-key-rogue.pem -CAcreateserial -out client-cert.pem -days 500 -extensions v3_req -extfile
+  238  openssl x509 -req -in prime256v1.csr -CA ca-rogue.pem -CAkey p384-key-rogue.pem -CAcreateserial -out client-cert.pem -days 500 -extensions v3_req -extfile openssl.cnf
+  239  cd Documents/POC_ECC_BUG
+  240  ll
+  241  ls -l
+  242  scp client-cert.crt root@10.211.55.7:/root/
+  243  scp prime256v1-privkey.pem root@10.211.55.7:/root/
+  244  python
+  245  history|grep spc
+  246  history|grep sp
+  247  sudo history|grep sp
+  248  pwd
+  249  l
+  250  ls -la
+  251  less .zsh_history|more
+  252  sudo spctl --master-disable
+  253  sudo spctl --master-enable
+  254  sudo vi /etc/hosts
+  255  sudo spctl --master-disable
+  256  cd Applications
+  257  ls
+  258  pwd
+  259  cd ..
+  260  cd ..
+  261  cd ..
+  262  cd Applications
+  263  sudo icTokenManager.app
+  264  sudo icTokenManager
+  265  ll
+  266  ls icTokenManager.app
+  267  ls icTokenManager.app/Contents/MacOS/
+  268  cd icTokenManager.app/Contents/MacOS/
+  269  ./icTokenManager
+  270  sudo ./icTokenManager
+  271  sudo spctl --master-disable
+  272  ./icTokenManager
+  273  sudo spctl
+  274  sudo spctl status
+  275  sudo spctl status
+  276  sudo spctl --status
+  277  ./icTokenManager
+  278  ./icTokenManager
+  279  cd Applications
+  280  ll
+  281  ls
+  282  cd /Applications
+  283  ls
+  284  ls
+  285  ls i*
+  286  ls more
+  287  ls more
+  288  ls |more
+  289    sudo ./icTokenManager.app
+  290    sudo ./icTokenManager.app/Contents/MacOS/icTokenManager
+  291  sudo brew install openssl@1.1
+  292  brew install openssl@1.1
+  293  brew upgrade openssl@1.1
+  294  ln -s /usr/local/opt/openssl/lib/libcrypto.1.1.dylib /usr/local/lib
+  295  ln -s /usr/local/opt/openssl/lib/libssl.1.1.dylib /usr/local/lib
+  296  ll /usr/local/lib
+  297  ls /usr/local/lib
+  298  rm -f /usr/local/lib/libssl.1.1.dylib
+  299  cd Applications
+  300  pwd
+  301  ls
+  302  cd /Applications
+  303  cd Dike.app
+  304  ls
+  305  cd Contents
+  306  s
+  307  ls
+  308  cd MacOS
+  309  ls
+  310  ./Dike
+  311  ll
+  312  ls
+  313  cd /Applications/Dike.app
+  314  cd /Applications/Dike.app/Contents/MacOS/Dike
+  315  ./Applications/Dike.app/Contents/MacOS/Dike
+  316   cd /Applications/Dike.app/Contents/MacOS/
+  317  ./Dike
+  318  ./Dike
+  319  ./Dike
+  320  pwd
+  321  ll
+  322  ls
+  323  cd /
+  324  ll
+  325  l
+  326  ls
+  327  \t\t\tlskqls
+  328  cccc
+  329  ls la
+  330  ls -la
+  331  ls cores
+  332  lj
+  333  cd Desktop
+  334  ls
+  335  ./Dike.app
+  336  ./Dike.app/Contents/MacOS/Dike
+  337  pwd
+  338  cd /Users/daniele/.dike
+  339  pwd
+  340  ll -lat |more
+  341  cd /Users/daniele/.dike
+  342  pwd
+  343  ls -lat |more
+  344  serverless
+  345  serverless
+  346  ll
+  347  ls
+  348  cd ciao
+  349  ls
+  350  less serverless.yml
+  351  brew tap aws/tap
+  352  brew install aws-sam-cli\n
+  353  sudo rm -rf /usr/local/Cellar/python/3.7.6_1
+  354  sam --version
+  355  whereis sam
+  356  sudp whereis sam
+  357  sudo whereis sam
+  358  sam
+  359  aws --version
+  360  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+  361  sudo installer -pkg AWSCLIV2.pkg -target /
+  362  aws --version
+  363  sam
+  364  ls
+  365  docker run jboss/wildfly
+  366  brew install mvn
+  367  brew install maven
+  368  mvn
+  369  kubectl
+  370  kubectl -version
+  371  kubectl version --client
+  372  brew install minikube
+  373  sudo mv minikube /usr/local/bin
+  374  exit
+  375  curl -o- -L https://slss.io/install | bash
+  376  sam --version
+  377  ls
+  378  cd aws
+  379  ls
+  380  mkdir sam-app
+  381  cd sam-app
+  382  sam build
+  383  sam init
+  384  mvn
+  385  brew install docker-machine-parallels\n
+  386  minikube start --driver=parallels
+  387  minikube delete
+  388  minikube start --driver=virtualbox
+  389  minikube status
+  390  kubectl create namespace qos-example
+  391  kubectl 
+  392  kubectl cluster-info
+  393  minikube status
+  394  kubectl describe
+  395  kubectl api-resource
+  396  kubectl api-resources
+  397  kubectl describe nodes
+  398  kubectl describe nodes
+  399  kubectl describe nodes
+  400  minikube stop
+  401  kubectl describe nodes
+  402  minikube start --driver=virtualbox
+  403  minikube stop
+  404  cd /Applications/GoSign-Desktop.app/Contents/MacOS/GoSignDesktop
+  405  cd /Applications/GoSign-Desktop.app/Contents/MacOS/
+  406  ./GoSignDesktop
+  407  ls -lat /Users/daniele
+  408  mkdir /Users/daniele/.gosign
+  409  mkdir /Users/daniele/.gosign/design
+  410  rm -rf /Users/daniele/.gosign/design
+  411  cd /Users/daniele/.gosign/
+  412  ls
+  413  mkdir /Users/daniele/.gosign/design
+  414  rm -rf /Users/daniele/.gosign/design
+  415  tail -f /Users/daniele/.gosign/dikecore.log
+  416  pwd
+  417  cd .. 
+  418  cd Desktop
+  419  spctl -a -v ../Downloads/GoSignDesktop-0.1.1.dmg
+  420  ll 
+  421  ls -la
+  422  ls -la ../Downloads
+  423  ls -la ../Applications/Godot\ Engine.app
+  424  cd ..
+  425  cd Downloads
+  426  ll
+  427  ls la
+  428  ls -la
+  429  spctl -a -v GoSignDesktop-1.0.0.dmg
+  430  sudo spctl -a -v GoSignDesktop-1.0.0.dmg 
+  431  sudo spctl -a -v GoSignDesktop-0.1.1.dmg 
+  432  sudo spctl -a -v GoSignDesktop-0.1.0.dmg
+  433  stapler valdate GoSignDesktop-1.0.0.dmg
+  434  stapler valdate /Applications/GoSign-Desktop.app
+  435  stapler valdate /Applications/GoSign-Desktop.app
+  436  stapler valdate /Applications/GoSign-Desktop.app/Contents/
+  437  stapler valdate /Applications/GoSign-Desktop.app/Contents/_CodeSignature
+  438  stapler valdate /Applications/GoSign-Desktop.app/Contents/_CodeSignature/CodeResources
+  439  history
+  440  history |moere
+  441  history |more
+  442  cd /Users/daniele
+  443  less .bashrc
+  444  ll -lat
+  445  ls -lat
+  446  less .zsh_history
+  447  cat .zsh_history |more
+  448  sudo spctl --master-enable
+  449  cd ..
+  450  spctl -a -v GoSign-Desktop.app
+  451  spctl -a -vv GoSign-Desktop.app
+  452  spctl -a -vvv GoSign-Desktop.app
+  453  spctl -a -vvv GoSign-Desktop.app
+  454  spctl -a -vvv GoSign-Desktop.app
+  455  spctl --assess -vvv GoSign-Desktop.app
+  456  spctl --assess -vvv /Users/daniele/Downloads/GoSignDesktop-1.0.0.dmg
+  457  rm -rf /Users/daniele/.gosign
+  458  less .gosign/dikecore.log
+  459  less .gosign/dikecore.log
+  460  tail -f .gosign/dikecore.log
+  461  less .gosign/electron.log
+  462  sudo spctl --master-disable
+  463  xattr -rd com.apple.quarantine /Users/daniele/Downloads/GoSign-Desktop-darwin-x64-feature-CADIKE-2932_macos-menubar/GoSign-Desktop.app
+  464  sudo xattr -rd com.apple.quarantine /Users/daniele/Downloads/GoSign-Desktop-darwin-x64-feature-CADIKE-2932_macos-menubar/GoSign-Desktop.app
+  465  sudo xattr -r com.apple.quarantine /Users/daniele/Downloads/GoSign-Desktop-darwin-x64-feature-CADIKE-2932_macos-menubar/GoSign-Desktop.app
+  466  sudo xattr -d com.apple.quarantine /Users/daniele/Downloads/GoSign-Desktop-darwin-x64-feature-CADIKE-2932_macos-menubar/GoSign-Desktop.app
+  467  sudo xattr -rd com.apple.quarantine /Users/daniele/Downloads/GoSign-Desktop-darwin-x64-feature-CADIKE-2932_macos-menubar/GoSign-Desktop.app
+  468  sudo csnutil disable
+  469  csrutil til disable
+  470  disable csrutil disable
+  471  sudo csrutil disable
+  472  cd /Users/daniele/Downloads/GoSign-Desktop-darwin-x64-feature-CADIKE-2932_macos-menubar/
+  473  ll
+  474  ls -laT
+  475  CHMOD 777 GoSign-Desktop.app
+  476  ls -laT
+  477  ./GoSign-Desktop.app
+  478  sudo ./GoSign-Desktop.app
+  479  sudo ./GoSign-Desktop.app/Contents/MacOS/GoSignDesktop 
+  480  ./GoSign-Desktop.app/Contents/MacOS/GoSignDesktop 
+  481  chmod 777 ./GoSign-Desktop.app/Contents/MacOS/GoSignDesktop 
+  482  ./GoSign-Desktop.app/Contents/MacOS/GoSignDesktop 
+  483  ./GoSign-Desktop.app/Contents/MacOS/GoSignDesktop 
+  484  ./GoSign-Desktop.app/Contents/MacOS/GoSignDesktop 
+  485  tail -f .gosign/dikecore.log
+  486  minikube 
+  487  minikube start
+  488  brew update
+  489  brew update
+  490  brew upgrade
+  491  softwareupdate --all --install --force
+  492  brew upgrade
+  493  softwareupdate --all --install --force
+  494  sudo rm -rf /Library/Developer/CommandLineTools
+  495  sudo xcode-select --install
+  496  brew upgrade
+  497  brew cask reinstall minikube
+  498  curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+  499  curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python.
+  500  ll
+  501  ls
+  502  pwd
+  503  brew install pyenv
+  504  curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go 
+  505  curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go > ciao.py
+  506  nano cia
+  507  nano ciao.py
+  508  curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+  509  rm -rf .pyenv/*
+  510  sudo rm -rf .pyenv/*
+  511  curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+  512  brew install emacs
+  513  curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+  514  mkdir cask
+  515  cd acsk
+  516  cd cask
+  517  git clone https://github.com/cask/cask.git
+  518  ls
+  519  cd cask
+  520  ls
+  521  ls -la
+  522  cd bin
+  523  ls
+  524  ./cask upgrade-cask
+  525  brew cask reinstall minikube
+  526  cask
+  527  brew install cask
+  528  brew cask reinstall minikube
+  529  brew cask
+  530  cask
+  531  cask reinstall minikube
+  532  cask install minikube
+  533  brew reinstall minikube
+  534  minikube start
+  535  minikube stop
+  536  docker version
+  537  docker version
+  538  docker version
+  539  docker run jpetzza/clock
+  540  docker run jpetazzo/clock
+  541  docker -l
+  542  docker ps
+  543  docker kill 85
+  544  docker ps
+  545  docker kill eb
+  546  docker ps
+  547  docker kill eb96547f2328
+  548  docker ps
+  549  docker run -d jpetazzo/clock
+  550  docker run -d jpetazzo/clock
+  551  docker run -d jpetazzo/clock
+  552  docker ps
+  553  docker logs --tail 30 f7
+  554  docker stop f7
+  555  docker ps
+  556  docker logs --tail 30 71
+  557  docker stop 69
+  558  docker stop 71
+  559  docker ps -a
+  560  docker run -it jpetazzo/clock
+  561  docker ps -a
+  562  docker attach $(docker ps -lq)
+  563  docker ps -a
+  564  docker attach $(docker ps -lq)
+  565  docker kill fa
+  566  docker start f7
+  567  docker attach $(docker ps -lq)
+  568  docker attach $(docker ps -lq)
+  569  docker ps -a
+  570  docker attach $(docker ps -lq)
+  571  docker attach f7
+  572  docker kill f7
+  573  docker ps -a
+  574  docker images
+  575  docker start e2
+  576  docker start e28684de91a9
+  577  docker search oracle
+  578  docker pull ubuntu
+  579  docker start -it ubuntu
+  580  docker ps -a
+  581  docker images
+  582  docker start -it 7e0aa2d69a15
+  583  docker run -it 7e0aa2d69a15
+  584  docker stop 7e0aa2d69a15
+  585  docker ps -a
+  586  docker stop 87c9ff493f04
+  587  docker diff 87c9ff493f04
+  588  docker commit 87c9ff493f04
+  589  docker images
+  590  docker tag
+  591  docker tag 243accb28119 243accb28119:latest
+  592  docker images
+  593  docker run -it 243accb28119
+  594  docker ps -a
+  595  docker stop d3d717373090
+  596  docker history d3d717373090
+  597  docker images
+  598  docker history 243accb28119
+  599  pwd
+  600  cd Documents/docker/playground
+  601  docker build -t hello
+  602  docker build -t hello .
+  603  docker run hello
+  604  docker images
+  605  docker ps
+  606  docker ps a
+  607  docker ps -a
+  608  docker run hello
+  609  docker ps -a
+  610  docker run hello
+  611  docker run --no-cache hello
+  612  docker run --help
+  613  docker run --help |grep cache
+  614  docker run --help |grep build
+  615  docker run --help |grep user
+  616  docker build -t hello .
+  617  docker run hello
+  618  docker images
+  619  docekr history hello
+  620  docker history hello
+  621  git clone https://github.com/jpetazzo/wordsmith
+  622  brew install tree
+  623  tree wordsmith
+  624  ls
+  625  cd wordsmith
+  626  ls
+  627  cd web
+  628  docker build
+  629  docker build web
+  630  ll
+  631  ls
+  632  history
+  633  docker build - t web .
+  634  docker build -t web .
+  635  docker build -t web .
+  636  docker run -it web
+  637  docker ps
+  638  docker ps -a
+  639  docker iamges
+  640  docker imaoges
+  641  docker images
+  642  cd ..
+  643  cd words
+  644  docker build -t rest .
+  645  docker run -it rest
+  646  cd ..
+  647  cd db
+  648  docker build -t database .
+  649  docker run -it database
+  650  pwd
+  651  cd ..
+  652  cd .
+  653  cd ..
+  654  docker build -t hello .
+  655  docker run -it hello
+  656  docker run -it hello
+  657  docker build -t hello .
+  658  docker --no-cache build -t hello .
+  659  docker build --no-cache -t hello .
+  660  docker build --no-cache -t hello .
+  661  docker run -it hello
+  662  docker run -it hello
+  663  docker build --no-cache -t hello .
+  664  docker run -it hello
+  665  docker build --no-cache -t hello .
+  666  docker run -it hello
+  667  docker run  hello
+  668  cd ..
+  669  git clone https://github.com/jpetazzo/trainingwheels
+  670  docker inspect  hello
+  671  docker logs  hello
+  672  docker inspect  hello
+  673  docker logs web
+  674  docker inspect  hello |jq .
+  675  brew install jq
+  676  docker inspect  hello |jq .
+  677  docker inspect --format '{{ json .Env }}'  hello
+  678  docker inspect --format '{{ json .Config.Env }}'  hello
+  679  docker inspect --format '{{ json .Config.Cmd }}'  hello
+  680  history
+  681  history -?
+  682  history --help
+  683  man history
+  684  man history
+  685  docker images
+  686  docker ps -a
+  687  docker run -l clock nice_newton
+  688  docker run -d -l clock nice_newton
+  689  docker run -d -l clock awesome_keldysh
+  690  docker run -d -l clock fa41e39ec92b
+  691  docker start -d -l clock nice_newton
+  692  docker start -l clock nice_newton
+  693  docker run -d -l clock jpetazzo/clock
+  694  docker ps
+  695  ps axu |more
+  696  ps axu |grep clock
+  697  docker ps -a
+  698  docker stop condescending_blackburn
+  699  docker run -d -l clock --name scatola jpetazzo/clock
+  700  docker ps -a
+  701  docker inspect scatola
+  702  docker inspect scatola |jq .
+  703  docker logs scatola
+  704  docker kill scatola
+  705  docker ps -a
+  706  docker run -d -l clock --name scatola jpetazzo/crashtest
+  707  docker remove scatola
+  708  docker delete scatola
+  709  docker eras scatola
+  710  docker erase scatola
+  711  docker rm scatola
+  712  docker ps -a
+  713  docker container rm $(docker container ls –aq)
+  714  docker ps -aq
+  715  docker container rm $(docker container ls –aq)
+  716  docker container rm $(docker container ps –aq)
+  717  docker container rm $(docker container ps –aq)
+  718  docker rm $(docker container ps –aq)
+  719  docker container ps –aq
+  720  docker ps -aq
+  721  docker container rm $(docker ps –aq)
+  722  docker ps -aq
+  723  docker run -d -l crashosa --name scatola jpetazzo/crashtest
+  724  docker ps
+  725  docker ps -l
+  726  docker ps -
+  727  docker ps -a
+  728  docker ps -lq
+  729  docker diff scatola
+  730  docker cp /var/log/nginx/error.log
+  731  docker cp scatola:/var/log/nginx/error.log .
+  732  cat error.log
+  733  docker run -d -l webboa --name nginxa -P nginx
+  734  docker ps -l
+  735  docker ps -ldocker inspect --format '{{.Config.ExposedPorts}}' nginxa
+  736  docker inspect --format '{{.Config.ExposedPorts}}' nginxa
+  737  docker port nginxa 80
+  738  docker networks
+  739  docker network
+  740  docker network ls
+  741  docker network inspect bridge
+  742  docker network inspect bridge |jq .
+  743  docker network ls
+  744  docker network create
+  745  docker network create dev
+  746  docker network create prod
+  747  docker network ls
+  748  docker run -d --name es1 --network-alias es -net dev alpine
+  749  docker run -d --name es1 --network-alias es --net dev alpine
+  750  docker ps
+  751  docker ps -a
+  752  docker start es1
+  753  docekr ps
+  754  docker ps
+  755  docker start es1 ifconfig a
+  756  docker start -it es1 ifconfig a
+  757  docker start
+  758  docker start --help
+  759  docker start -i es1
+  760  docker ps
+  761  docker start -i es1 ifconfig
+  762  docker start -i es1 ifconfig
+  763  docker ps -
+  764  docker ps -a
+  765  docker container rm 5148d9ec8560
+  766  docker container rm eb96547f2328
+  767  docker container rm 8555d73e282f eb3babc0f676
+  768  docker ps -a
+  769  docker container rm 00c02087d578 7177f08e210e 69565a00c96c f7bbd8e822c3 87c9ff493f04 d3d717373090 9e44e8420074 22c3e4123137 22ca0e559bb3 afaab4240c3b 
+  770  docker ps -a
+  771  docker container rm 555098bc87c0
+  772  docker run -d -it --name es1 --network-alias es --net dev alpine
+  773  docker ps -a
+  774  pwd
+  775  docker ps -a
+  776  docker stop es1
+  777  docker start es1 sh
+  778  docker start es1
+  779  docker exec es1 sh
+  780  docker stop es1
+  781  docker start --entrypoint=sh es1
+  782  docker start -ai  es1
+  783  docker run -d -it --name es2 --network-alias es --net dev alpine
+  784  docker start -ai  es1
+  785  docker run --net dev -d -P jpetazzo/trainingwheels
+  786  docker ps
+  787  docker stop es2
+  788  docker run --net dev -d -P jpetazzo/trainingwheels
+  789  docker ps
+  790  docker ps ww
+  791  docker ps --help
+  792  docker ps
+  793  docker run --net dev --net-alias redis -d redis
+  794  docker kill 077ea9cc5fd5
+  795  docker ps
+  796  docker kill  ee79840dcf97 73097e6c5cbd
+  797  docker run -d -it --name es --network-alias es --net dev alpine
+  798  docker run -it apline sh
+  799  docker run -it alpine sh
+  800  docker ps
+  801  docker run -d --name eccomi alpine
+  802  docker ps
+  803  docker ps
+  804  docker network connect dev 0691811d8d51
+  805  cd dss
+  806  ls
+  807  docker build --tag dss-demo-webapp .
+  808  docker build --tag dss-demo-webapp .
+  809  docker build --tag dss-demo-webapp .
+  810  docker images
+  811  docker run -it 6457b2170f66
+  812  docker build --tag dss-demo-webapp .
+  813  docker build --tag dss-demo-webapp .
+  814  docker images
+  815  docker run --name dss-webapp-5.8.2 -P dss-demo-webapp
+  816  docker run --name dss-webapp-5.8.2 -P-d  dss-demo-webapp
+  817  docker run --name dss-webapp-5.8.2 -P -d  dss-demo-webapp
+  818  docker ps
+  819  docker kill 9ef6356a1c53 
+  820  docker run --name dss-webapp-5.8.2 -P -d  dss-demo-webapp
+  821  docker ps -a
+  822  docker container rm 9dc2f2e0370f 989d38c83c4c  9ef6356a1c53 ccb404514ac5 977c012ca57c e6f08cc0ba59
+  823  docker run --name dss-webapp-5.8.2 -P -d  dss-demo-webapp
+  824  docker ps
+  825  docker kill dss-demo-webapp
+  826  docker kill b1582e349fec
+  827  docker build --tag dss-demo-webapp .
+  828  docker ps
+  829  docker run --name dss-webapp-5.8.2 -P -d  dss-demo-webapp
+  830  docker run --name dss-webapp-5.8.2 -P -d  dss-demo-webapp2
+  831  docker run --name dss-webapp-fine -P -d  dss-demo-webapp
+  832  docker ps
+  833  docker ps
+  834  docker kill 57ec
+  835  docker images
+  836  docker run --name dss-mid -P 8bdcba4527c0
+  837  docker ps
+  838  docker run --name dss-mid -P -d 8bdcba4527c0
+  839  docker ps -a
+  840  docke container rm d358261491bb 57ec2d7a3628 b1582e349fec 0691811d8d51 e381decf4543 6403c7281399 198bc581d6f7 
+  841  dockre container rm d358261491bb 57ec2d7a3628 b1582e349fec 0691811d8d51 e381decf4543 6403c7281399 198bc581d6f7 
+  842  docker container rm d358261491bb 57ec2d7a3628 b1582e349fec 0691811d8d51 e381decf4543 6403c7281399 198bc581d6f7 
+  843  docker run --name dss-mid -P -d 8bdcba4527c0
+  844  docker ps
+  845  docker exec -a dss-mid /bin/bash
+  846  docker exec dss-mid /bin/bash
+  847  docker -ai exec dss-mid /bin/bash
+  848  history
+  849  history |more
+  850  history 0 |more
